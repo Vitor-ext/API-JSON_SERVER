@@ -1,0 +1,28 @@
+{
+  "name": "api-fake",
+  "version": "1.0.0",
+  "description": "\"Api Fake para o curso de Front-End\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "json-server --watch db.json -- port 3001"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vitor-ext/API-JSON.git"
+  },
+  "keywords": [
+    "\"API",
+    "Node",
+    "Back\""
+  ],
+  "author": "❤🚀❤ Vitor de Jesus ❤🚀❤",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vitor-ext/API-JSON/issues"
+  },
+  "homepage": "https://github.com/Vitor-ext/API-JSON#readme",
+  "dependencies": {
+    "json-server": "^0.17.1"
+  }
+}

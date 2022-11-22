@@ -1,0 +1,39 @@
+{
+    "clientes" : 
+    [
+     { "id" : 1 , "nome" : "João da Silva" , "cpf" : " 74185296312", "rg" : "3692581471", "telefone" : "11984845151" },
+     { "id" : 2 , "nome" : "Hector Salvagni" , "cpf" : " 75787578758", "rg" : "7456985214", "telefone" : "11970707070" },
+     { "id" : 3 , "nome" : "Gabriel Pereira" , "cpf" : " 12654212554", "rg" : "4213652145", "telefone" : "11999886677" },
+     { "id" : 4 , "nome" : "Joana Andrade" , "cpf" : " 45124512653", "rg" : "4213652145", "telefone" : "11945624125" },
+     { "id" : 5 , "nome" : "Maria da Silva" , "cpf" : " 45787456951", "rg" : "4865425412", "telefone" : "11942654123" }
+    ],
+
+
+    "dentistas" : 
+    [
+     { "id" : 1 , "nome" : "Judas Carorsi" , "cpf" : " 83330152342 ", "rg" : "622604986", "telefone" : " 11951300483" },
+     { "id" : 2 , "nome" : "Wendel Santana " , "cpf" : " 66448973514 ", "rg" : "876061515", "telefone" : "11978570321" },
+     { "id" : 3 , "nome" : "Bianca Silva" , "cpf" : " 61887236243 ", "rg" : "889048118", "telefone" : "11975646053" },
+     { "id" : 4 , "nome" : "Ester da Conceição" , "cpf" : " 71530416390 ", "rg" : "928411101", "telefone" : "11932149758" },
+     { "id" : 5 , "nome" : "Vanda Rezende " , "cpf" : " 92137551952 ", "rg" : "873190440", "telefone" : "11965912035" }
+    ],
+
+   "especialidade": 
+   [
+     { "id" : 1 , "especialidade" : "clinico"},
+     { "id" : 2 , "especialidade" : "odontologista"},
+     { "id" : 1 , "especialidade" : "cirurgião"}
+
+   ],
+
+   "consultas": 
+   [
+     { "id" : 1 , "cliente" : "Hector Salvagni" , "dentista": "Bianca Silva", "horario":"14:00" },
+     { "id" : 2 , "cliente" : "Maria da Silva" , "dentista": "Ester da Conceição ", "horario":"11:00"},
+     { "id" : 3 , "cliente" : "Gabriel Pereira" , "dentista": "Vanda Rezende", "horario":"16:00" },
+     { "id" : 4 , "cliente" : "Joana Andrade" , "dentista": "Wendel Santana", "horario":"10:00" }
+
+   ]
+
+
+}
